@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add master switch",
+        "description": "The switch is turned on while any of the selected thermostats is heating, and off when none of them are.",
+        "data": {
+          "name": "Name",
+          "climates": "Thermostats",
+          "switch": "Master switch"
+        },
+        "data_description": {
+          "climates": "Climate entities whose hvac_action is watched.",
+          "switch": "The switch (e.g. boiler relay) to turn on and off."
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "climates": "Thermostats",
+          "switch": "Master switch"
+        },
+        "data_description": {
+          "climates": "Climate entities whose hvac_action is watched.",
+          "switch": "The switch (e.g. boiler relay) to turn on and off."
+        }
+      }
+    }
+  }
+}

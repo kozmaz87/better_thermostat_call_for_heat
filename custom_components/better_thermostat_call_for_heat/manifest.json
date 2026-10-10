@@ -1,0 +1,12 @@
+{
+  "domain": "better_thermostat_call_for_heat",
+  "name": "Better Thermostat Call For Heat",
+  "codeowners": ["@kozmaz87"],
+  "config_flow": true,
+  "documentation": "https://github.com/kozmaz87/better_thermostat_call_for_heat",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/kozmaz87/better_thermostat_call_for_heat/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
